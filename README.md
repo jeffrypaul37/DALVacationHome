@@ -41,7 +41,7 @@ The application uses a multi-cloud deployment model with a combination of AWS an
 
 ### 3. Message Passing
 - **Pub/Sub Messaging**: GCP Pub/Sub for message exchange between customers and property agents
-- **Logging**: DynamoDB or Firestore for communication logs
+- **Logging**: DynamoDB for communication logs
 
 ### 4. Notifications
 - **Email Notifications**: AWS SNS and AWS SQS for registration, login, and booking confirmations
@@ -53,14 +53,12 @@ The application uses a multi-cloud deployment model with a combination of AWS an
 
 ### 6. Web Application & Deployment
 - **Frontend**: React-based application hosted on GCP CloudRun
-- **Deployment Automation**: CloudFormation or GCP Deployment Manager
+- **Deployment Automation**: CloudFormation
 
 ## Technologies Used
 - **Frontend**: React.js
 - **Backend**: AWS Lambda, AWS Cognito, GCP Pub/Sub, GCP CloudRun
-- **Database**: DynamoDB, Firestore
-- **CI/CD**: CloudFormation, GCP Deployment Manager
-- **Testing**: GCP Testing Tools, AWS Testing Tools
+- **Database**: DynamoDB
 - **Analytics**: Google Natural Language API, LookerStudio
 - **Messaging**: GCP Pub/Sub, AWS SQS
 - **Notifications**: AWS SNS
